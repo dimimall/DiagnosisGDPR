@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.weblogical.dimitra.diagnosisgdpr.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logogdpr"
+            android:id="@+id/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textColor="#0000ff"
+            android:layout_below="@+id/logo"
+            android:layout_marginTop="40dp"
+            android:text="@string/content" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:id="@+id/webView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/webView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textSize="20dp"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="@string/sigatathesi" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:textColor="#000"
+            android:layout_marginTop="41dp"
+            android:text="@string/epivevaiosi1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="13dp"
+            android:text="@string/epivevaiosi2"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="15dp"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:text="@string/epivevaiosi3" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/webView2"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView5"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/onomateponymo"
+            android:id="@+id/textView6"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_below="@+id/webView2"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:id="@+id/edittext1"
+            android:layout_toRightOf="@+id/textView6"
+            android:layout_below="@+id/webView2"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/hmeromhniagenisis"
+            android:background="@drawable/border"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView6"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_edittext"
+            android:focusable="false"
+            android:gravity="center"
+            android:id="@+id/edittext2"
+            android:layout_toRightOf="@+id/textView7"
+            android:layout_below="@+id/edittext1"
+            android:inputType="none"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView8"
+            android:text="@string/adt"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_below="@+id/textView7"/>
+
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:layout_below="@+id/edittext2"
+            android:layout_toRightOf="@+id/textView8"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView9"
+            android:text="@string/tilephono"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_below="@+id/textView8"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:id="@+id/edittext4"
+            android:layout_below="@+id/edittext3"
+            android:layout_toRightOf="@+id/textView9"
+            android:inputType="phone"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView16"
+            android:text="@string/fax"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_below="@+id/textView9"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:id="@+id/edittext10"
+            android:layout_below="@+id/edittext4"
+            android:layout_toRightOf="@+id/textView16"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView17"
+            android:text="@string/asfaleia"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_below="@+id/textView16"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:id="@+id/edittext11"
+            android:layout_below="@+id/edittext10"
+            android:layout_toRightOf="@+id/textView17"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView10"
+            android:text="@string/diefthinsi"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_below="@+id/textView17"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:id="@+id/edittext5"
+            android:layout_below="@+id/edittext11"
+            android:layout_toRightOf="@+id/textView10"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/tk"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:id="@+id/textView11"
+            android:typeface="sans"
+            android:layout_below="@+id/textView10"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:id="@+id/edittext6"
+            android:layout_below="@+id/edittext5"
+            android:layout_toRightOf="@+id/textView11"
+            android:inputType="textPostalAddress"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/poli"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:id="@+id/textView12"
+            android:typeface="sans"
+            android:layout_below="@+id/textView11"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:id="@+id/edittext7"
+            android:layout_below="@+id/edittext6"
+            android:layout_toRightOf="@+id/textView12"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/email"
+            android:id="@+id/textView13"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_below="@+id/textView12"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:id="@+id/edittext8"
+            android:layout_below="@+id/edittext7"
+            android:layout_toRightOf="@+id/textView13"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/ypografh"
+            android:id="@+id/textView14"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_marginTop="250dp"
+            android:layout_below="@+id/textView13"/>
+
+        <com.github.gcacace.signaturepad.views.SignaturePad
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@drawable/signborder"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/signature_pad"
+            android:layout_toRightOf="@+id/textView14"
+            android:layout_below="@+id/edittext8"
+            android:layout_marginTop="0dp"
+            app:penColor="@android:color/black"
+            app:penMinWidth="4dp"
+            app:penMaxWidth="8dp"
+            app:clearOnDoubleClick="true"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/hmeromhnia"
+            android:id="@+id/textView15"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_below="@+id/textView14"/>
+
+        <EditText
+            android:id="@+id/edittext9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border_edittext"
+            android:focusable="false"
+            android:layout_below="@+id/signature_pad"
+            android:layout_toRightOf="@+id/textView15"
+            android:inputType="none" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:textColor="#fff"
+            android:background="@drawable/border"
+            android:id="@+id/save"
+            android:gravity="center"
+            android:layout_below="@+id/textView15"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_alignBaseline="@+id/save"
+            android:layout_alignBottom="@+id/save"
+            android:layout_toEndOf="@+id/save"
+            android:layout_toRightOf="@+id/save"
+            android:text="Email Send"
+            android:textColor="#fff"
+            android:background="@drawable/border" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_alignBaseline="@+id/button"
+            android:layout_alignBottom="@+id/button"
+            android:layout_toEndOf="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:text="View Pdf"
+            android:textColor="#fff"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_toEndOf="@+id/button2"
+            android:layout_toRightOf="@+id/button2"
+            android:text="CLEAR"
+            android:textColor="#fff"
+            android:background="@drawable/border" />
+
+    </RelativeLayout>
+
+</ScrollView>

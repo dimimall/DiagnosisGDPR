@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Diagnosis GDPR</string>
+    <string name="content">Privacy Statement Regulation</string>
+    <string name="sigatathesi">CONSENT</string>
+    <string name="epivevaiosi1">I confirm that I have read and fully understood the above information.</string>
+    <string name="epivevaiosi2">I confirm that I voluntarily consent to the collection, processing and maintenance of my personal data by Diagnosis for purposes as outlined in paragraph 1 above.</string>
+    <string name="epivevaiosi3">I confirm that I am aware of and understand my rights regarding:</string>
+    <string name="onomateponymo">Name:</string>
+    <string name="hmeromhniagenisis">Birthdate:</string>
+    <string name="adt">Identify:</string>
+    <string name="tilephono">Phone Number:</string>
+    <string name="fax">Fax</string>
+    <string name="asfaleia">Security</string>
+    <string name="diefthinsi">Address</string>
+    <string name="tk">Postal Code:</string>
+    <string name="poli">City:</string>
+    <string name="email">Email:</string>
+    <string name="ypografh">Signature:</string>
+    <string name="hmeromhnia">Date:</string>
+    <string name="html1">
+        <![CDATA[<html><body style="font-family:arial"><ul><li><b>Purpose of data processing</b>The purpose S.Y.Diagnosis Laboratory Center Limited (Diagnosis) collects, processes and maintains personal data, is due to our activities in relation to the laboratory tests concerning you.</li>"
+                "<li><b>Type of personal data that they are or will be subjected to processing</b><ul><li>Name and Surname</li>"
+                "<li>Date of Birth</li>"
+                "<li>Identity and/or passport number</li>"
+                "<li>Contact details such as address, phone, fax and e-mail.</li></br>"
+                "<li>Information relating to your previous transactions with the Lab</li>"
+                "<li>Current treatments</li>"
+                "<li>Test results</li></ul>"
+                "</li><li><b>Update / Saved data</b></li>"
+                "<ul><li>Our records will be periodically updated in the same way as which information have been collected</li><li>Your personal data is stored in the secure files in printed and electronic form and kept on our facilities.  Only our staff has access to the files. We have security measures installed to ensure the data confidentially and these security measures are subject to constant review and upgrade.</li></ul></li>"
+                "<li><b>Span of time processing</b>For the time required to evaluate the current or future state of health or your request to remove your data.</li>"
+                "<li><b>Legal framework</b>According to the powers provided by Law 132/1988 for the processing clinical laboratory examinations in patients.</li>"
+                "<li><b>Recipients to whom the medical data may be release</b>After your consent the data can be released to your doctor and healthcare professionals who are responsible for your health. Under no circumstances do we expose your personal data to third parties other than your explicit consent.</li></ul></body></html>]]>
+    </string>
+
+    <string name="html2">
+        <![CDATA[<html><body style="font-family:arial"><ul><li>the portability of my personal data, the submission of a written request  to access and correct my personal data, to limit the processing data or oppose to processing and deleting my personal data</li>"
+                "<li>The revoke of my consent at any time with submitting a written request to the Data protection Officer of Diagnosis, 36 Vasileos Constantinou Street, 8021 Paphos</li>"
+                "<li>Submitting a complaint to the Office of the Commissioner for the Protection of Personal Data:</br>"
+                "Address: Iasonos 1, 1082 Nicosia</br>"
+                "Phone: 22818456</br>"
+                "Fax: 22304565</br>"
+                "Email: commissioner@dataprotection.gov.cy</li></ul></body></html>]]>
+    </string>
+    <string name="html1_l1">Purpose of data processing The purpose S.Y.Diagnosis Laboratory Center Limited (Diagnosis) collects, processes and maintains personal data, is due to our activities in relation to the laboratory tests concerning you</string>
+    <string name="html1_l2">Type of personal data that they are or will be subjected to processing</string>
+    <string name="html1_l3">Name and Surname</string>
+    <string name="html1_l4">Date of Birth</string>
+    <string name="html1_l5">Identity and/or passport number</string>
+    <string name="html1_l6">Contact details such as address, phone, fax and e-mail.</string>
+    <string name="html1_l7">Information relating to your previous transactions with the Lab</string>
+    <string name="html1_l8">Current treatments</string>
+    <string name="html1_l9">Test results</string>
+    <string name="html1_l10">Update / Saved data</string>
+    <string name="html1_l11">Our records will be periodically updated in the same way as which information have been collected</string>
+    <string name="html1_l12">Your personal data is stored in the secure files in printed and electronic form and kept on our facilities.  Only our staff has access to the files. We have security measures installed to ensure the data confidentially and these security measures are subject to constant review and upgrade.</string>
+    <string name="html1_l13">Span of time processing For the time required to evaluate the current or future state of health or your request to remove your data.</string>
+    <string name="html1_l14">Legal framework According to the powers provided by Law 132/1988 for the processing clinical laboratory examinations in patients.</string>
+    <string name="html1_l15">Recipients to whom the medical data may be release After your consent the data can be released to your doctor and healthcare professionals who are responsible for your health. Under no circumstances do we expose your personal data to third parties other than your explicit consent.</string>
+    <string name="html2_l1">the portability of my personal data, the submission of a written request  to access and correct my personal data, to limit the processing data or oppose to processing and deleting my personal data</string>
+    <string name="html2_l2">The revoke of my consent at any time with submitting a written request to the Data protection Officer of Diagnosis, 36 Vasileos Constantinou Street, 8021 Paphos</string>
+    <string name="html2_l3">Submitting a complaint to the Office of the Commissioner for the Protection of Personal Data:</string>
+    <string name="html2_l4">Address: Iasonos 1, 1082 Nicosia</string>
+    <string name="html2_l5">Phone: 22818456</string>
+    <string name="html2_l6">Fax: 22304565</string>
+    <string name="html2_l7">Email: commissioner@dataprotection.gov.cy</string>
+</resources>
